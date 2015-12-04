@@ -19,7 +19,6 @@ module.exports = function (wallaby) {
 
     compilers: {
       '**/*.ts*': wallaby.compilers.typeScript({
-        typescript: require("typescript"),
         target: 2,  //ES6
         module: 1,  //commonjs
         jsx: 2      // react
